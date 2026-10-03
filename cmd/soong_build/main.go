@@ -315,7 +315,7 @@ func parseAvailableEnv() map[string]string {
 }
 
 func main() {
-	debug.SetMemoryLimit(40 * 1024 * 1024 * 1024)
+	debug.SetMemoryLimit(35 * 1024 * 1024 * 1024)
 	debug.SetGCPercent(25)
 
 	flag.Parse()
